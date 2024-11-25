@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens - Zona Bleach</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <h1>Zona Bleach</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="characters.html">Personagens</a></li>
+                <li><a href="episodes.html">Episódios</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Alternar Tema</button>
+    </header>
+
+    <main>
+        <h2>Personagens Principais</h2>
+        <div class="personagens">
+            <div class="cartao-personagem" data-name="Ichigo Kurosaki">
+                <img src="https://wallpapers.com/images/hd/bleach-anime-ichigo-bankai-x5ildyvb7u41kblh.jpg" alt="Ichigo Kurosaki">
+                <h3>Ichigo Kurosaki</h3>
+                <p>Protagonista da série, Ichigo é um Shinigami Substituto com poderes únicos. Tudo começa quando ele recebe poderes de shinigami de Rukia Kuchiki, uma verdadeira Shinigami. Até que Rukia recupere todos os seus poderes, Ichigo deve atuar como shinigami substituto.</p>
+            </div>
+            <div class="cartao-personagem" data-name="Kenpachi Zaraki">
+                <img src="https://i.pinimg.com/550x/94/82/82/948282fbe8b8c1184dccdf305afc0a5b.jpg" alt="Kenpachi Zaraki">
+                <h3>Kenpachi Zaraki</h3>
+                <p>Zaraki é o capitão do 11° Esquadrão da Gotei 13. Kenpachi é um Shinigami forte que parece um animal, com um lado selvagem e agressivo que combina perfeitamente com sua personalidade.</p>
+            </div>
+            <div class="cartao-personagem" data-name="Sōsuke Aizen">
+                <img src="https://images3.alphacoders.com/131/1310203.png" alt="Sōsuke Aizen">
+                <h3>Sōsuke Aizen</h3>
+                <p>Ex-capitão que se tornou o principal antagonista da série. Durante seu serviço, ele secretamente conduziu pesquisas junto com seus dois cúmplices para alcançar novos patamares de poder combinando os poderes de Shinigami e Hollows.</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal-personagem" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar">&times;</span>
+            <h2 id="modal-nome-personagem"></h2>
+            <img id="modal-imagem-personagem" src="" alt="">
+            <p id="modal-descricao-personagem"></p>
+            <div id="modal-imagens-adicionais"></div>
+            <div id="modal-texto-adicional"></div>
+        </div>
+    </div>    
+
+    <footer>
+        <p>&copy; 2024 Zona Bleach. Todos os direitos reservados. Autor: Pedro Henrique Dutra do Carmo.</p>
+    </footer>
+</body>
+</html>
